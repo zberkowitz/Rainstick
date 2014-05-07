@@ -1,4 +1,4 @@
-Mobile-Music-Template
+iPad Rainstick
 =====================
 
-Template project for creating a libpd based mobile music instrument
+A Rainstick-like instrument for the iPad
