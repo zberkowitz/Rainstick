@@ -68,14 +68,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3715B93E162F23330026E296 /* Mobile Music Accel Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Music Accel Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3715B93E162F23330026E296 /* Rainstick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainstick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3715B942162F23330026E296 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3715B944162F23330026E296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3715B946162F23330026E296 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3715B94A162F23330026E296 /* Mobile Music Accel Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mobile Music Accel Demo-Info.plist"; sourceTree = "<group>"; };
+		3715B94A162F23330026E296 /* Rainstick-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rainstick-Info.plist"; sourceTree = "<group>"; };
 		3715B94C162F23330026E296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3715B94E162F23330026E296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3715B950162F23330026E296 /* Mobile Music Accel Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mobile Music Accel Demo-Prefix.pch"; sourceTree = "<group>"; };
+		3715B950162F23330026E296 /* Rainstick-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rainstick-Prefix.pch"; sourceTree = "<group>"; };
 		3715B951162F23330026E296 /* MAGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGAppDelegate.h; sourceTree = "<group>"; };
 		3715B952162F23330026E296 /* MAGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGAppDelegate.m; sourceTree = "<group>"; };
 		3715B954162F23330026E296 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -85,9 +85,9 @@
 		3715B95E162F23330026E296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		3715B960162F23330026E296 /* MAGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGViewController.h; sourceTree = "<group>"; };
 		3715B961162F23330026E296 /* MAGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGViewController.m; sourceTree = "<group>"; };
-		3715B968162F23330026E296 /* Mobile Music Accel DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Music Accel DemoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3715B968162F23330026E296 /* RainstickTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainstickTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3715B969162F23330026E296 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3715B971162F23340026E296 /* Mobile Music Accel DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mobile Music Accel DemoTests-Info.plist"; sourceTree = "<group>"; };
+		3715B971162F23340026E296 /* RainstickTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RainstickTests-Info.plist"; sourceTree = "<group>"; };
 		3715B973162F23340026E296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3715B975162F23340026E296 /* Mobile_Music_TemplateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mobile_Music_TemplateTests.h; sourceTree = "<group>"; };
 		3715B976162F23340026E296 /* Mobile_Music_TemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobile_Music_TemplateTests.m; sourceTree = "<group>"; };
@@ -152,8 +152,8 @@
 		3715B93F162F23330026E296 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3715B93E162F23330026E296 /* Mobile Music Accel Demo.app */,
-				3715B968162F23330026E296 /* Mobile Music Accel DemoTests.octest */,
+				3715B93E162F23330026E296 /* Rainstick.app */,
+				3715B968162F23330026E296 /* RainstickTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,10 +189,10 @@
 		3715B949162F23330026E296 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3715B94A162F23330026E296 /* Mobile Music Accel Demo-Info.plist */,
+				3715B94A162F23330026E296 /* Rainstick-Info.plist */,
 				3715B94B162F23330026E296 /* InfoPlist.strings */,
 				3715B94E162F23330026E296 /* main.m */,
-				3715B950162F23330026E296 /* Mobile Music Accel Demo-Prefix.pch */,
+				3715B950162F23330026E296 /* Rainstick-Prefix.pch */,
 				3715B954162F23330026E296 /* Default.png */,
 				3715B956162F23330026E296 /* Default@2x.png */,
 				3715B958162F23330026E296 /* Default-568h@2x.png */,
@@ -213,7 +213,7 @@
 		3715B970162F23340026E296 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3715B971162F23340026E296 /* Mobile Music Accel DemoTests-Info.plist */,
+				3715B971162F23340026E296 /* RainstickTests-Info.plist */,
 				3715B972162F23340026E296 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -231,9 +231,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3715B93D162F23330026E296 /* Mobile Music Accel Demo */ = {
+		3715B93D162F23330026E296 /* Rainstick */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3715B97A162F23340026E296 /* Build configuration list for PBXNativeTarget "Mobile Music Accel Demo" */;
+			buildConfigurationList = 3715B97A162F23340026E296 /* Build configuration list for PBXNativeTarget "Rainstick" */;
 			buildPhases = (
 				3715B93A162F23330026E296 /* Sources */,
 				3715B93B162F23330026E296 /* Frameworks */,
@@ -244,14 +244,14 @@
 			dependencies = (
 				3715B992162F2F290026E296 /* PBXTargetDependency */,
 			);
-			name = "Mobile Music Accel Demo";
+			name = Rainstick;
 			productName = "Mobile Music Template";
-			productReference = 3715B93E162F23330026E296 /* Mobile Music Accel Demo.app */;
+			productReference = 3715B93E162F23330026E296 /* Rainstick.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3715B967162F23330026E296 /* Mobile Music Accel DemoTests */ = {
+		3715B967162F23330026E296 /* RainstickTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3715B97D162F23340026E296 /* Build configuration list for PBXNativeTarget "Mobile Music Accel DemoTests" */;
+			buildConfigurationList = 3715B97D162F23340026E296 /* Build configuration list for PBXNativeTarget "RainstickTests" */;
 			buildPhases = (
 				3715B963162F23330026E296 /* Sources */,
 				3715B964162F23330026E296 /* Frameworks */,
@@ -263,9 +263,9 @@
 			dependencies = (
 				3715B96E162F23330026E296 /* PBXTargetDependency */,
 			);
-			name = "Mobile Music Accel DemoTests";
+			name = RainstickTests;
 			productName = "Mobile Music TemplateTests";
-			productReference = 3715B968162F23330026E296 /* Mobile Music Accel DemoTests.octest */;
+			productReference = 3715B968162F23330026E296 /* RainstickTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -278,7 +278,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = MAG;
 			};
-			buildConfigurationList = 3715B938162F23330026E296 /* Build configuration list for PBXProject "Mobile Music Accel Demo" */;
+			buildConfigurationList = 3715B938162F23330026E296 /* Build configuration list for PBXProject "Rainstick" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -296,8 +296,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				3715B93D162F23330026E296 /* Mobile Music Accel Demo */,
-				3715B967162F23330026E296 /* Mobile Music Accel DemoTests */,
+				3715B93D162F23330026E296 /* Rainstick */,
+				3715B967162F23330026E296 /* RainstickTests */,
 			);
 		};
 /* End PBXProject section */
@@ -389,7 +389,7 @@
 /* Begin PBXTargetDependency section */
 		3715B96E162F23330026E296 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3715B93D162F23330026E296 /* Mobile Music Accel Demo */;
+			target = 3715B93D162F23330026E296 /* Rainstick */;
 			targetProxy = 3715B96D162F23330026E296 /* PBXContainerItemProxy */;
 		};
 		3715B992162F2F290026E296 /* PBXTargetDependency */ = {
@@ -491,11 +491,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mobile Music Template/Mobile Music Accel Demo-Prefix.pch";
-				INFOPLIST_FILE = "Mobile Music Template/Mobile Music Accel Demo-Info.plist";
+				GCC_PREFIX_HEADER = "Mobile Music Template/Rainstick-Prefix.pch";
+				INFOPLIST_FILE = "Mobile Music Template/Rainstick-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DPD";
-				PRODUCT_NAME = "Mobile Music Accel Demo";
+				PRODUCT_NAME = Rainstick;
 				USER_HEADER_SEARCH_PATHS = "libpd/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -505,11 +505,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mobile Music Template/Mobile Music Accel Demo-Prefix.pch";
-				INFOPLIST_FILE = "Mobile Music Template/Mobile Music Accel Demo-Info.plist";
+				GCC_PREFIX_HEADER = "Mobile Music Template/Rainstick-Prefix.pch";
+				INFOPLIST_FILE = "Mobile Music Template/Rainstick-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DPD";
-				PRODUCT_NAME = "Mobile Music Accel Demo";
+				PRODUCT_NAME = Rainstick;
 				USER_HEADER_SEARCH_PATHS = "libpd/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -525,8 +525,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobile Music Template/Mobile Music Template-Prefix.pch";
-				INFOPLIST_FILE = "Mobile Music TemplateTests/Mobile Music Accel DemoTests-Info.plist";
-				PRODUCT_NAME = "Mobile Music Accel DemoTests";
+				INFOPLIST_FILE = "Mobile Music TemplateTests/RainstickTests-Info.plist";
+				PRODUCT_NAME = RainstickTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -542,8 +542,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobile Music Template/Mobile Music Template-Prefix.pch";
-				INFOPLIST_FILE = "Mobile Music TemplateTests/Mobile Music Accel DemoTests-Info.plist";
-				PRODUCT_NAME = "Mobile Music Accel DemoTests";
+				INFOPLIST_FILE = "Mobile Music TemplateTests/RainstickTests-Info.plist";
+				PRODUCT_NAME = RainstickTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -552,7 +552,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3715B938162F23330026E296 /* Build configuration list for PBXProject "Mobile Music Accel Demo" */ = {
+		3715B938162F23330026E296 /* Build configuration list for PBXProject "Rainstick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3715B978162F23340026E296 /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3715B97A162F23340026E296 /* Build configuration list for PBXNativeTarget "Mobile Music Accel Demo" */ = {
+		3715B97A162F23340026E296 /* Build configuration list for PBXNativeTarget "Rainstick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3715B97B162F23340026E296 /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3715B97D162F23340026E296 /* Build configuration list for PBXNativeTarget "Mobile Music Accel DemoTests" */ = {
+		3715B97D162F23340026E296 /* Build configuration list for PBXNativeTarget "RainstickTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3715B97E162F23340026E296 /* Debug */,

@@ -14,12 +14,9 @@
     PdDispatcher *dispatcher;
     void *patch;
 }
-- (IBAction)randomPitch:(UIButton *)sender;
-- (IBAction)enable:(UIButton *)sender;
 
 @property (strong, nonatomic) CMMotionManager *motionManager;
-@property (weak, nonatomic) IBOutlet UIButton *enableButton;
 
-@property (nonatomic) BOOL *enabled;
+
 
 @end

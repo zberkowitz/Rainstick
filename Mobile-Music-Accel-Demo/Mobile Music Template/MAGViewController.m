@@ -9,16 +9,19 @@
 #import "MAGViewController.h"
 
 @interface MAGViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *xLabel;
-@property (weak, nonatomic) IBOutlet UILabel *yLabel;
-@property (weak, nonatomic) IBOutlet UILabel *zLabel;
 
 @end
 
+
+
 @implementation MAGViewController
 
-@synthesize enabled;
-@synthesize enableButton;
+- (NSUInteger) supportedInterfaceOrientations {
+    
+    return UIInterfaceOrientationMaskLandscapeRight;
+    
+}
+
 
 #pragma mark - View lifecycle
 
@@ -27,6 +30,7 @@ void scale_setup();
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	
     // _________________ LOAD Pd Patch ____________________
     dispatcher = [[PdDispatcher alloc] init];
@@ -36,7 +40,6 @@ void scale_setup();
     if (!patch) {
         NSLog(@"Failed to open patch!");
     }
-    enabled = NO;
     
     self.motionManager = [[CMMotionManager alloc] init];
     self.motionManager.accelerometerUpdateInterval  = 1.0/20.0; // Update at 20Hz
@@ -46,12 +49,9 @@ void scale_setup();
         [self.motionManager startAccelerometerUpdatesToQueue:queue
                                                  withHandler:^(CMAccelerometerData *accelerometerData, NSError *error) {
                                                 CMAcceleration acceleration = accelerometerData.acceleration;
-                                                self.xLabel.text = [NSString stringWithFormat:@"%f", acceleration.x];
-                                                [PdBase sendFloat:acceleration.x toReceiver:@"pitch"];
-                                                self.yLabel.text = [NSString stringWithFormat:@"%f", acceleration.y];
-                                                [PdBase sendFloat:acceleration.y toReceiver:@"vibrato_speed"];
-                                                self.zLabel.text = [NSString stringWithFormat:@"%f", acceleration.z];
-                                                [PdBase sendFloat:acceleration.z toReceiver:@"vibrato_depth"];
+                                    
+                                                [PdBase sendFloat:acceleration.y toReceiver:@"density"];
+                                 
                                             }];
     }
 
@@ -75,22 +75,4 @@ void scale_setup();
 
 // _________________ UI Interactions with Pd Patch ____________________
 
-- (IBAction)randomPitch:(UIButton *)sender {
-    [PdBase sendBangToReceiver:@"random_note"];
-}
-
-- (IBAction)enable:(UIButton *)sender {
-    
-    if (enabled) {
-        enabled = NO;
-        // enableButton.titleLabel = @"Enable";
-        [enableButton setTitle:@"Enable" forState:UIControlStateNormal];
-        [PdBase sendFloat:0 toReceiver:@"enable"];
-    } else {
-        enabled = YES;
-        [enableButton setTitle:@"Disable" forState:UIControlStateNormal];
-        [PdBase sendFloat:1 toReceiver:@"enable"];
-    }
-    
-}
 @end
